@@ -6,47 +6,160 @@
 
 body {
     font-family: Arial, sans-serif;
+    font-size: 20px;
 }
 header {
-border: solid;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color:#182139;
 }
 
 nav ul {
     list-style-type: none;
-    border: solid;
+    padding: 5px; background-color:#FFE438;
+
+
 }
 
 nav ul li {
-    border: solid;
     display: inline;
     margin-right: 20px;
 }
 
 nav ul li a {
     text-decoration: none;
-    border: solid;
+    color: #182139;
+  
 }
 
 nav{
-    display: flex;
-    margin-right: 20px;
     flex-direction: column;
-    border: solid;
+  text-align: center;
+ 
 }
 
-
-main {
-    padding: 20px;
-    border: solid;
-}
 
 .log_in{
-    border:solid;
+    gap:2rem;
     display: flex;
-    justify-content:end
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
 
+.log_in a{
+    text-decoration: none;
+    color:#FFE438;   
+}
+.boder-right{
+    border-right: 3px solid  #FFE438;
+}
+
+/**============================
+            Banner
+=============================**/
+.banner{
+    background: #1c1c1c;
+}
+.saludo{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.saludo__titulo{
+    color: #fff;
+    text-align: center;
+}
+
+/**============================
+        Carrousel
+=============================**/
+.carrusel{
+    text-align: center;
+    background: #349FFF;
+    display: flex;
+    padding:15px;
+}
+.carrusel__titulo{
+padding: 10px;
+}
+.carrusel__lista{
+    display: flex;
+    gap:40px;
+}
+.carrusel__lista div{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    gap: 5px;
+}
+
+
+/**===========================
+            Helper
+===========================**/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+}
+.main_inicio{
+background: #349FFF;
+display:block;
+
+}
+.productos{
+    background-color: #182139;
+    color: #FFE438;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.galeria_de_productos{
+    display: flex;
+    gap: 50px;
+    padding:3%;
+}
+
+.galeria_de_productos div{
+width: 50%;
+height: 200px;
+background-color: #FFE438;
+}
+
+.content_button{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 15px
+}
+
+.button_uno{
+width: 88px;
+height: 44px;
+background-color: #FFE438;
+border-radius: 10%;
+color:#182139;
+
+}
+
+.busqueda{
+    background-color: rgb(10, 10, 10);
+    display:flex;
+
+}
+.content_busqueda{
+color: #FFFF;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.content_miniimg{
+    background-color:#349FFF;
+height: 60px;
 }
