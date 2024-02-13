@@ -33,7 +33,6 @@ nav ul li a {
 nav{
     flex-direction: column;
   text-align: center;
- 
 }
 
 
@@ -139,27 +138,151 @@ justify-content: center;
 padding: 15px
 }
 
-.button_uno{
+.button{
 width: 88px;
 height: 44px;
 background-color: #FFE438;
-border-radius: 10%;
+border-radius: 8px;
 color:#182139;
+border-style: none;
 
+}
+
+
+
+.button:hover{
+background-color: #349FFF;
 }
 
 .busqueda{
     background-color: rgb(10, 10, 10);
     display:flex;
-
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    gap: 2.5rem;
 }
+.form_1{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mini_form{
+  display: flex;
+  gap: 12px;
+}
+
 .content_busqueda{
 color: #FFFF;
 display: flex;
 align-items: center;
 flex-direction: column;
+justify-content: center
+
 }
 .content_miniimg{
-    background-color:#349FFF;
-height: 60px;
+  display: flex;
+  /* position: relative; */
+ 
+}
+
+
+.img_1{
+  /* position: absolute; */
+  background-color: #FFE438;
+  padding: 50px;
+  border-radius:100%;
+
+  
+}
+.img_2{
+  /* position:absolute;  */
+  background-color:#349FFF;
+  padding: 50px;
+  border-radius:100%;
+  margin-left: -50px;
+}
+
+.barra_busqueda{
+width: 486px;
+height: 35px;
+border-top-left-radius:20px;
+border-bottom-left-radius: 20px ;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px  ;
+background-color: #349FFF;
+border-style: none;
+padding: 20px; ;
+color: #fff;
+font-size: 20px;
+}
+.button_busqueda{
+width: 88px;
+height: 44px;
+background-color: #ffffff;
+border-radius: 8px;
+color:#000000;
+border-style: none;
+
+}
+.barra_busqueda::placeholder {
+  color:white;
+}
+
+.content_fiml{
+background-color: #182139;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.content_1{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 45%;
+  gap: 25px;
+}
+
+.medium{
+  display: flex;
+  justify-content: center;
+  gap:40px;
+  padding: 20px;
+
+}
+.content_miniimg2{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.img_3{
+  /* position: absolute; */
+  background-color: #FFf;
+  padding: 50px;
+  border-radius:100%;
+
+  
+}
+.img_4{
+  /* position:absolute;  */
+  background-color:#349FFF;
+  padding: 50px;
+  border-radius:100%;
+  margin-left: -50px;
+}
+
+.content_medium_img{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 45%;
+  gap: 25px;
+}
+.content_tex_buttom{
+  display: flex;
+justify-content: center;
+align-items: center;
 }
