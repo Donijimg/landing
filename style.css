@@ -1,288 +1,346 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
 }
+
 header {
-    background-color:#182139;
+  background-color: #182139;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 5px; background-color:#FFE438;
+  list-style-type: none;
+  padding: 5px;
+  background-color: #FFE438;
 
 
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #182139;
-  
+  text-decoration: none;
+  color: #182139;
+
 }
 
-nav{
-    flex-direction: column;
+nav {
+  flex-direction: column;
   text-align: center;
 }
 
 
-.log_in{
-    gap:2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.log_in {
+  gap: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right:70px;
+  justify-content: flex-end;
 }
 
-.log_in a{
-    text-decoration: none;
-    color:#FFE438;   
+.log_in a {
+  text-decoration: none;
+  color: #FFE438;
 }
-.boder-right{
-    border-right: 3px solid  #FFE438;
+
+.boder-right {
+  border-right: 3px solid #FFE438;
 }
 
 /**============================
             Banner
 =============================**/
-.banner{
-    background: #1c1c1c;
-}
-.saludo{
-    height: 140px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.banner {
+  background: #1c1c1c;
 }
 
-.saludo__titulo{
-    color: #fff;
-    text-align: center;
+.saludo {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saludo__titulo {
+  color: #fff;
+  text-align: center;
 }
 
 /**============================
         Carrousel
 =============================**/
-.carrusel{
-    text-align: center;
-    background: #349FFF;
-    display: flex;
-    padding:15px;
+.carrusel {
+  text-align: center;
+  background: #349FFF;
+  display: flex;
+  padding: 15px;
 }
-.carrusel__titulo{
-padding: 10px;
+
+.carrusel__titulo {
+  padding: 10px;
 }
-.carrusel__lista{
-    display: flex;
-    gap:40px;
+
+.carrusel__lista {
+  display: flex;
+  gap: 40px;
 }
-.carrusel__lista div{
-    display: flex;
-    flex-direction: column;
-    width: 80px;
-    gap: 5px;
+
+.carrusel__lista div {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  gap: 5px;
 }
 
 
 /**===========================
             Helper
 ===========================**/
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-h3{
-    text-align: center;
-}
-.main_inicio{
-background: #349FFF;
-display:block;
-
-}
-.productos{
-    background-color: #182139;
-    color: #FFE438;
-    display: flex;
-    flex-direction: column;
+h3 {
+  padding-top: 40px;
+  text-align: center;
 }
 
-
-.galeria_de_productos{
-    display: flex;
-    gap: 50px;
-    padding:3%;
-}
-
-.galeria_de_productos div{
-width: 50%;
-height: 200px;
-background-color: #FFE438;
-}
-
-.content_button{
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 15px
-}
-
-.button{
-width: 88px;
-height: 44px;
-background-color: #FFE438;
-border-radius: 8px;
-color:#182139;
-border-style: none;
+.main_inicio {
+  background: #349FFF;
+  display: block;
 
 }
 
-
-
-.button:hover{
-background-color: #349FFF;
+.productos {
+  background-color: #182139;
+  color: #FFE438;
+  display: flex;
+  flex-direction: column;
 }
 
-.busqueda{
-    background-color: rgb(10, 10, 10);
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    gap: 2.5rem;
+
+.galeria_de_productos {
+  display: flex;
+  gap: 50px;
+  padding: 3%;
 }
-.form_1{
-  display:flex;
+
+.galeria_de_productos div {
+  width: 50%;
+  height: 200px;
+  background-color: #FFE438;
+}
+
+.content_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px
+}
+
+.button {
+  width: 88px;
+  height: 44px;
+  background-color: #FFE438;
+  border-radius: 8px;
+  color: #182139;
+  border-style: none;
+
+}
+
+
+
+.button:hover {
+  background-color: #349FFF;
+}
+
+.busqueda {
+  background-color: rgb(10, 10, 10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  gap: 2.5rem;
+}
+
+.form_1 {
+  display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.mini_form{
+.mini_form {
   display: flex;
-  gap: 12px;
+  gap: 25px;
 }
 
-.content_busqueda{
-color: #FFFF;
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center
-
+.content_busqueda {
+  color: #FFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center
 }
-.content_miniimg{
+
+.content_miniimg {
   display: flex;
   /* position: relative; */
- 
+
 }
 
 
-.img_1{
+.img_1 {
   /* position: absolute; */
   background-color: #FFE438;
   padding: 50px;
-  border-radius:100%;
+  border-radius: 100%;
 
-  
+
 }
-.img_2{
+
+.img_2 {
   /* position:absolute;  */
-  background-color:#349FFF;
+  background-color: #349FFF;
   padding: 50px;
-  border-radius:100%;
+  border-radius: 100%;
   margin-left: -50px;
 }
 
-.barra_busqueda{
-width: 486px;
-height: 35px;
-border-top-left-radius:20px;
-border-bottom-left-radius: 20px ;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px  ;
-background-color: #349FFF;
-border-style: none;
-padding: 20px; ;
-color: #fff;
-font-size: 20px;
+.barra_busqueda {
+  width: 486px;
+  height: 35px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #349FFF;
+  border-style: none;
+  padding: 20px;
+  ;
+  color: #fff;
+  font-size: 20px;
 }
-.button_busqueda{
-width: 88px;
-height: 44px;
-background-color: #ffffff;
-border-radius: 8px;
-color:#000000;
-border-style: none;
+
+.button_busqueda {
+  width: 88px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #000000;
+  border-style: none;
 
 }
+
 .barra_busqueda::placeholder {
-  color:white;
+  color: white;
 }
 
-.content_fiml{
-background-color: #182139;
-display: flex;
-align-items: center;
-flex-direction: column;
-}
-
-.content_1{
+.content_fiml {
+  background-color: #182139;
   display: flex;
-  flex-direction:column;
-  align-items:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 45%;
   gap: 25px;
 }
 
-.medium{
+.medium {
   display: flex;
   justify-content: center;
-  gap:40px;
+  gap: 40px;
   padding: 20px;
+  color: #FFE438
+}
+
+.content_miniimg2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
-.content_miniimg2{
-display: flex;
-justify-content: center;
-align-items: center;
 
-}
-.img_3{
+.img_3 {
   /* position: absolute; */
   background-color: #FFf;
   padding: 50px;
-  border-radius:100%;
+  border-radius: 100%;
 
-  
+
 }
-.img_4{
+
+.img_4 {
   /* position:absolute;  */
-  background-color:#349FFF;
+  background-color: #349FFF;
   padding: 50px;
-  border-radius:100%;
+  border-radius: 100%;
   margin-left: -50px;
 }
 
-.content_medium_img{
+.content_medium_img {
   display: flex;
-  flex-direction:column;
-  align-items:center;
-  width: 45%;
+  flex-direction: column;
+  align-items: center;
+  width: 588px;
+  height: 158px;
+  background-color: #FFE438;
   gap: 25px;
 }
-.content_tex_buttom{
+
+.content_tex_buttom {
   display: flex;
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  width: 452px;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.medium_2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+  color: #FFE438
+
+}
+
+.Torneos {
+  display: flex;
+  gap: 50px;
+  padding: 3%;
+  background-color: #182139;
+}
+
+.Torneos div {
+  width: 50%;
+  height: 200px;
+  background-color: #FFE438;
+}
+.Torneos_1{
+  background-color: #182139;
+  color: #FFE438;
+}
+
+footer{
+  height: 30px;
+  background-color: #FFE438;
 }
