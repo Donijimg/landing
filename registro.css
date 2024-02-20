@@ -53,33 +53,31 @@ main {
 display: flex;
 align-items: center;
 flex-direction: column;
-
 width: 400px;;
 
 }
 .bloquesito{
-  height: 800px;
-  width: 600px;
+width: 600px;
 background-color:#000000;
-margin: auto 0;
-padding: 5%;
+margin-top: 50px;
+padding: 30px;
 border: none;
-border-radius: 8%;
+border-radius: 50px;
 color: aliceblue;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align: center;
+gap:15px;
 }
 
 
 
-.bloquesito input{
-margin-bottom: 5%;
-
-width:300px;
-height:50px;
+.input_uni {
+margin: 2%;
+width:400px;
+height:40px;
 border-radius:10px;
 }
 
@@ -87,15 +85,31 @@ a{
   color: #349FFF;
 }
 .button:hover {
-  background-color: #349FFF;
+  background-color:#ffff00;
 }
 .button {
   width: 88px;
   height: 44px;
-  background-color: #FFE438;
+  background-color: #ffffff;
   border-radius: 8px;
   color: #182139;
   border-style: none;
   cursor: pointer;
 
+}
+.Gener{
+  display: flex;
+  gap:20px;
+}
+
+.Gener input{
+  width:20px;
+  height:20px;
+}
+
+.date{
+  margin: 2%;
+width:400px;
+height:40px;
+border-radius:10px;
 }

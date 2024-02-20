@@ -6,65 +6,93 @@
 
 body {
     font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #6b9aff;
-    color: #eeeeee;
-    padding: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
-nav ul {
-    list-style-type: none;
+
+@keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 100px 0px;
+  }
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+
+body {
+  background: linear-gradient(196deg,#ffff00,#0097ff,#000000);
+  background-size: 180% 180%;
+  animation: gradient-animation 3s ease infinite;
 }
 
-nav ul li a {
-    color: #eeeeee;
-    text-decoration: none;
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-nav{
-    display: flex;
-    margin-right: 20px;
-}
 
 
 main {
     padding: 20px;
+    
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
 
 
 .container{
 display: flex;
 align-items: center;
 flex-direction: column;
-height: 300px;
+height: 800px;
 
 }
 .bloquesito{
-padding: 1%;
-text-align: center;
-border: #e0e0e0 solid;
+background-color:#000000;
+margin: auto 0;
+padding: 10%;
+border: none;
 border-radius: 8%;
-width: 30%;
+color: aliceblue;
+display: flex;
+flex-direction: column;
+text-align: center;
+
+
+
 }
- .bloquesito div input{
-margin-bottom: 5%;
-width:200px;
-height:25px;
+ .bloquesito input{
+  margin: 20px;
+width:300px;
+height:50px;
+border-radius:10px;
+}
+
+a{
+  color: #349FFF;
+}
+.button:hover {
+  background-color: #349FFF;
+}
+.button {
+  width: 88px;
+  height: 44px;
+  background-color: #FFE438;
+  border-radius: 8px;
+  color: #182139;
+  border-style: none;
+  cursor: pointer;
+
+}
+h1{
+margin: 5%;
 }
